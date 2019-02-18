@@ -59,6 +59,10 @@ public class FileNameRandom {
                 bakFileName(targetPath, result);
                 break;
             }
+            default:{
+                System.out.println("-random 文件夹全路径不能有空格 结果文件路径不能有空格 :将文件名设置为随机名字");
+                System.out.println("-bak 文件夹全路径不能有空格 结果文件路径不能有空格到文件名 :将文件名设置为随机名字");
+            }
         }
     }
 
